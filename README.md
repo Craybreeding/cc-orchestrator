@@ -88,6 +88,10 @@ If it returns code — you're connected.
 | `setup.sh` | One-shot installer (macOS/Linux) |
 | `dispatch.py` | Fallback: subprocess mode (no MCP needed) |
 
+## Optional skill
+
+For model selection before a Kimi coding or review call, see [Kimi Model Router](skills/kimi-model-router/). It classifies requests locally and keeps tool use, workspace writes, sensitive work, and high-impact actions on native Codex. It does not invoke Kimi unless `--invoke` is selected and does not configure providers or credentials.
+
 ## Uninstall
 
 Remove the `codex` and `kimi` entries from:
